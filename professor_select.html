@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
@@ -9,10 +10,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="Crab">
+    <meta name="author" content="">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
 
     <!-- CSS Global Compulsory -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -20,13 +21,11 @@
 
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">   
-    <link rel="stylesheet" href="assets/plugins/revolution-slider/examples/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
 
     <!-- CSS Page Style -->    
     <link rel="stylesheet" href="assets/css/pages/portfolio-v2.css">
-
-
+    
     <!-- CSS Theme -->    
     <link rel="stylesheet" href="assets/css/themes/blue.css" id="style_color">
 
@@ -64,7 +63,7 @@
 
 <div class="wrapper">
     <!--=== Header ===-->    
-    <div class="header">
+        <div class="header">
         <!-- Topbar -->
         <div class="topbar">
             <div class="container">
@@ -173,7 +172,7 @@
                                 关于我们
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="">教师团队</a></li>
+                                <li><a href="professor_select.html">教师团队</a></li>
                                 <li><a href="">实验室概况</a></li>
                                 <li><a href="">实验室理念</a></li>
                             </ul>
@@ -197,24 +196,29 @@
         </div>            
         <!-- End Navbar -->
     </div>
-    <!--=== End Header ===-->    
+    <!--=== End Header ===-->     
 
+    <!--=== Breadcrumbs ===-->
     <div class="breadcrumbs">
         <div class="container">
-            <h1 class="pull-left">新闻通知</h1>
+            <h1 class="pull-left">关于我们</h1>
             <ul class="pull-right breadcrumb">
                 <li><a href="index.html">主页</a></li>
-                <li class="active">教师团队</li>
+                <li><a href="index.html">关于我们</a></li>
+                <li class="active"><a href="professor_select.html">教师团队</a></li>
             </ul>
         </div>
     </div>
+    <!--=== End Breadcrumbs ===-->
 
     <!--=== Content Part ===-->
-    <div class="row">
+    <div class="container content">     
+        <!-- Portfolio Sorting Blocks -->
+        <div class="row">
             <!-- Begin Sidebar Menu -->
-        <div class="col-md-3">
-            <hr>
-            <ul class="list-group sidebar-nav-v1" id="sidebar-nav">
+            <div class="col-md-3">
+                <hr>
+                <ul class="list-group sidebar-nav-v1" id="sidebar-nav">
                     
                     <!-- index -->
                     <li class="list-group-item"><a href="index.html">首页</a></li>
@@ -260,10 +264,10 @@
                     <!-- End Group -->
 
                     <!-- Group -->
-                    <li class="list-group-item list-toggle">                   
+                    <li class="list-group-item list-toggle active">                   
                         <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-5">关于我们</a>
-                        <ul id="collapse-5" class="collapse">
-                            <li><a href="feature_btn_general.html">教师团队</a></li>
+                        <ul id="collapse-5" class="collapse in">
+                            <li class="active"><a href="feature_btn_general.html">教师团队</a></li>
                             <li><a href="feature_btn_general.html">实验室概况</a></li>
                             <li><a href="feature_btn_general.html">实验室理念</a></li>
                         </ul>
@@ -278,121 +282,153 @@
                             <li><a href="feature_btn_general.html">在地图上找到我们</a></li>
                         </ul>
                     </li>
-                    <!-- End Group -->
-            </ul>
-        </div>
-            <!-- End Sidebar Menu -->
-
-            <!-- Begin Content -->
-        <div class="col-md-8">
-            <div class="sorting-block">
-                <ul class="sorting-nav sorting-nav-v1 text-center">
-                    <li class="filter active" data-filter="all">All</li>
-                    <li class="filter" data-filter="category_1">UI Design</li>
-                    <li class="filter" data-filter="category_2">Wordpress</li>
-                    <li class="filter" data-filter="category_3">HTML5/CSS3</li>
-                    <li class="filter" data-filter="category_4">Bootstrap 3</li>
                 </ul>
-
-                <ul class="row sorting-grid">
-                    <li class="col-md-3 col-sm-6 col-xs-12 mix category_1 category_3 mix_all" data-cat="1" style="display: inline-block; opacity: 1;">
-                        <a href="#">
-                            <img class="img-responsive" src="assets/img/main/11.jpg" alt="">
-                            <span class="sorting-cover">
-                                <span>Happy New Year</span>
-                                <p>Anim pariatur cliche reprehenderit</p>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="col-md-3 col-sm-6 col-xs-12 mix category_3 category_1 mix_all" data-cat="3" style="display: inline-block; opacity: 1;">
-                        <a href="#">
-                            <img class="img-responsive" src="assets/img/main/12.jpg" alt="">
-                            <span class="sorting-cover">
-                                <span>Happy New Year</span>
-                                <p>Anim pariatur cliche reprehenderit</p>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="col-md-3 col-sm-6 col-xs-12 mix category_2 category_1 mix_all" data-cat="2" style="display: inline-block; opacity: 1;">
-                        <a href="#">
-                            <img class="img-responsive" src="assets/img/main/13.jpg" alt="">
-                            <span class="sorting-cover">
-                                <span>Happy New Year</span>
-                                <p>Anim pariatur cliche reprehenderit</p>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="col-md-3 col-sm-6 col-xs-12 mix category_3 category_4 mix_all" data-cat="3" style="display: inline-block; opacity: 1;">
-                        <a href="#">
-                            <img class="img-responsive" src="assets/img/main/3.jpg" alt="">
-                            <span class="sorting-cover">
-                                <span>Happy New Year</span>
-                                <p>Anim pariatur cliche reprehenderit</p>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="col-md-3 col-sm-6 col-xs-12 mix category_2 category_1 category_4 mix_all" data-cat="2" style="display: inline-block; opacity: 1;">
-                        <a href="#">
-                            <img class="img-responsive" src="assets/img/main/2.jpg" alt="">
-                            <span class="sorting-cover">
-                                <span>Happy New Year</span>
-                                <p>Anim pariatur cliche reprehenderit</p>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="col-md-3 col-sm-6 col-xs-12 mix category_4 mix_all" data-cat="1" style="display: inline-block; opacity: 1;">
-                        <a href="#">
-                            <img class="img-responsive" src="assets/img/main/6.jpg" alt="">
-                            <span class="sorting-cover">
-                                <span>Happy New Year</span>
-                                <p>Anim pariatur cliche reprehenderit</p>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="col-md-3 col-sm-6 col-xs-12 mix category_2 category_3  category_4 mix_all" data-cat="2" style="display: inline-block; opacity: 1;">
-                        <a href="#">
-                            <img class="img-responsive" src="assets/img/main/8.jpg" alt="">
-                            <span class="sorting-cover">
-                                <span>Happy New Year</span>
-                                <p>Anim pariatur cliche reprehenderit</p>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="col-md-3 col-sm-6 col-xs-12 mix category_1 category_2 category_3 mix_all" data-cat="1" style="display: inline-block; opacity: 1;">
-                        <a href="#">
-                            <img class="img-responsive" src="assets/img/main/1.jpg" alt="">
-                            <span class="sorting-cover">
-                                <span>Happy New Year</span>
-                                <p>Anim pariatur cliche reprehenderit</p>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="col-md-3 col-sm-6 col-xs-12 mix category_4 category_2 mix_all" data-cat="1" style="display: inline-block; opacity: 1;">
-                        <a href="#">
-                            <img class="img-responsive" src="assets/img/main/11.jpg" alt="">
-                            <span class="sorting-cover">
-                                <span>Happy New Year</span>
-                                <p>Anim pariatur cliche reprehenderit</p>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="col-md-3 col-sm-6 col-xs-12 mix category_3 category_2 mix_all" data-cat="3" style="display: inline-block; opacity: 1;">
-                        <a href="#">
-                            <img class="img-responsive" src="assets/img/main/12.jpg" alt="">
-                            <span class="sorting-cover">
-                                <span>Happy New Year</span>
-                                <p>Anim pariatur cliche reprehenderit</p>
-                            </span>
-                        </a>
-                    </li>
-                </ul>
-            
-                <div class="clearfix"></div>
+                <!-- End Group -->    
             </div>
+            <!-- End Sidebar -->
+            <!-- Begin Sort -->
+            <div class="col-md-9">
+                <div class="sorting-block">
+            <ul class="sorting-nav sorting-nav-v1 text-center">
+                <li class="filter" data-filter="all">所有</li>
+                <li class="filter" data-filter="category_1">教授/博导</li>
+                <li class="filter" data-filter="category_2">副教授/硕导</li>
+                <li class="filter" data-filter="category_3">副研究员/硕导</li>
+                <li class="filter" data-filter="category_4">博士</li>
+            </ul>
+
+            <ul class="row sorting-grid">
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_1" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/wzh.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">吴朝晖</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_1" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/ym.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">姚　敏</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_1" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/yjw.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">尹建伟</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_1" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/pg.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">潘　纲</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_1" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/chj.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">陈华钧</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_1" data-cat="1">
+                    <a href="professor_wj.html">
+                        <img class="img-responsive" src="images/wj.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">吴　健</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_2" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/yyc.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">杨莹春</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_2" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/jxh.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">姜晓红</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_2" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/ly.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">李　莹</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_2" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/dsg.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">邓水光</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_2" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/gzh.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">顾宗华</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_2" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/lsj.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">李石坚</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_2" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/lhf.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">刘海风</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_3" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/ygq.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">杨国青</p></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="col-md-2 col-sm-6 col-xs-12 mix category_4" data-cat="1">
+                    <a href="#">
+                        <img class="img-responsive" src="images/lh.jpg" alt="">
+                        <span class="sorting-cover">
+                            <span><p align="center">李  红</p></span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        
+            <div class="clearfix"></div>
+                </div>
+                <!-- End Portfolio Sorting Blocks -->
+            </div>
+            <!-- End Sort -->
         </div>
-        <!-- End Content -->
-    </div>
-    <!-- End Content Part -->
+        <!-- End Row -->
+    </div><!--/container-->     
+    <!--=== End Content Part ===-->
 
     <!--=== Footer ===-->
     <div class="footer">
@@ -472,26 +508,22 @@
 <!-- JS Global Compulsory -->           
 <script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+<!-- JS Implementing Plugins -->           
 <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
-<script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="assets/plugins/jquery.mixitup.min.js"></script> 
-<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-<script type="text/javascript" src="assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-<script type="text/javascript" src="assets/plugins/revolution-slider/examples/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery.mixitup.min.js"></script>    
 <!-- JS Page Level -->           
 <script type="text/javascript" src="assets/js/app.js"></script>
-<script type="text/javascript" src="assets/js/pages/index.js"></script>
+<script type="text/javascript" src="assets/js/pages/page_portfolio.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function() {
         App.init();
-        App.initSliders();
-        Index.initRevolutionSlider();
+        PortfolioPage.init();                             
     });
 </script>
 <!--[if lt IE 9]>
     <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
 <![endif]-->
 
 </body>

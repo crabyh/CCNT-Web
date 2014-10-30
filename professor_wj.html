@@ -1,0 +1,522 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>CCNT实验室 浙江大学计算机学院</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/sky-forms/version-2.0.1/css/custom-sky-forms.css">
+    <link rel="stylesheet" href="assets/plugins/scrollbar/src/perfect-scrollbar.css">
+
+    <!-- CSS Page Style -->
+    <link rel="stylesheet" href="assets/css/pages/profile.css">
+    <link rel="stylesheet" href="assets/css/pages/feature_timeline2.css">
+
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="assets/css/themes/blue.css" id="style_color">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head> 
+
+<body class="boxed-layout container">
+<!--=== Style Switcher ===-->    
+<i class="style-switcher-btn fa fa-cogs hidden-xs"></i>
+<div class="style-switcher animated fadeInRight">
+    <div class="theme-close"><i class="icon-close"></i></div>
+    <div class="theme-heading">Theme Colors</div>
+    <ul class="list-unstyled">
+        <li class="theme-default" data-style="default" data-header="light"></li>
+        <li class="theme-blue theme-active" data-style="blue" data-header="light"></li>
+        <li class="theme-orange" data-style="orange" data-header="light"></li>
+        <li class="theme-red" data-style="red" data-header="light"></li>
+        <li class="theme-light last" data-style="light" data-header="light"></li>
+
+        <li class="theme-purple" data-style="purple" data-header="light"></li>
+        <li class="theme-aqua" data-style="aqua" data-header="light"></li>
+        <li class="theme-brown" data-style="brown" data-header="light"></li>
+        <li class="theme-dark-blue" data-style="dark-blue" data-header="light"></li>
+        <li class="theme-light-green last" data-style="light-green" data-header="light"></li>
+    </ul>
+    <div style="margin-bottom:18px;"></div>
+    <div class="theme-heading">Layouts</div>
+    <div class="text-center">
+        <a href="javascript:void(0);" class="btn-u btn-u-green btn-block wide-layout-btn">Wide</a>
+        <a href="#" class="btn-u btn-u-green btn-block active-switcher-btn boxed-layout-btn">Boxed</a>
+    </div>
+</div><!--/style-switcher-->
+<!--=== End Style Switcher ===-->    
+
+<div class="wrapper">
+    <!--=== Header ===-->    
+    <div class="header header-fixed-shrink">
+        <!-- Topbar -->
+        <div class="topbar">
+            <div class="container">
+                <!-- Topbar Navigation -->
+                <ul class="loginbar pull-right">
+                    <li>
+                        <i class="fa fa-globe"></i>
+                        <a>语言</a>
+                        <ul class="lenguages">
+                            <li class="active">
+                                <a href="#">简体中文<i class="fa fa-check"></i></a> 
+                            </li>
+                            <li><a href="#">English</a></li>
+                        </ul>
+                    </li>
+                    <li class="topbar-devider"></li>   
+                    <li><a href="page_faq.html">帮助</a></li>  
+                    <li class="topbar-devider"></li>   
+                    <li><a href="page_login.html">登陆</a></li>   
+                </ul>
+                <!-- End Topbar Navigation -->
+            </div>
+        </div>
+        <!-- End Topbar -->
+    
+        <!-- Navbar -->
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img id="logo-header" src="images/logo.png" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Home -->
+                        <li class="dropdown active">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                首页
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">首页</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Home -->
+
+                        <!-- Dropdown -->                        
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                最新动态
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">新闻动态</a></li>
+                                <li><a href="">最新公告</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Dropdown -->
+
+                        <!-- Dropdown -->                        
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                研究方向
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">服务科学与网络计算</a></li>
+                                <li><a href="">嵌入式普适高性能计算</a></li>
+                                <li><a href="">智能计算及系统</a></li> 
+                            </ul>
+                        </li>
+                        <!-- End Dropdown -->
+
+                        <!-- Dropdown -->                        
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                科研硕果
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">平台建设</a></li>
+                                <li><a href="">获奖成果</a></li>
+                                <li><a href="">著作</a></li> 
+                            </ul>
+                        </li>
+                        <!-- End Dropdown -->
+
+                        <!-- Dropdown -->                        
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                人才引进
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">人才引进</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Dropdown -->
+
+                        <!-- Dropdown -->                        
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                关于我们
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="professor_select.html">教师团队</a></li>
+                                <li><a href="">实验室概况</a></li>
+                                <li><a href="">实验室理念</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Dropdown -->
+
+                        <!-- Dropdown -->                        
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                联系我们
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">联系我们</a></li>
+                                <li><a href="">在地图上找到我们</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Dropdown -->
+                    </ul>
+                </div><!--/navbar-collapse-->
+            </div>    
+        </div>            
+        <!-- End Navbar -->
+    </div>
+    <!--=== End Header ===-->   
+
+    <!--=== Breadcrumbs ===-->
+    <div class="breadcrumbs">
+        <div class="container">
+            <h1 class="pull-left">关于我们</h1>
+            <ul class="pull-right breadcrumb">
+                <li><a href="index.html">主页</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="professor_select.html.html">教师团队</a></li>
+                <li class="active">吴健</li>
+            </ul>
+        </div>
+    </div>
+    <!--=== End Breadcrumbs ===--> 
+
+    <!--=== Profile ===-->
+    <div class="profile">   
+        <div class="container content">
+            <div class="row">
+                <!--Left Sidebar-->
+                <div class="col-md-3 md-margin-bottom-40">
+                    <hr>
+                    <ul class="list-group sidebar-nav-v1" id="sidebar-nav">
+                        
+                        <!-- index -->
+                        <li class="list-group-item"><a href="index.html">首页</a></li>
+                        <!-- End index -->
+
+                        <!-- Group -->
+                        <li class="list-group-item list-toggle">                   
+                            <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-1">最新动态</a>
+                            <ul id="collapse-1" class="collapse">
+                                <li>
+                                <a href="feature_btn_general.html">新闻动态</a>
+                                <span class="badge badge-u">New</span>
+                                </li>
+                                <li><a href="feature_btn_general.html">最新公告</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Group -->
+
+                        <!-- Group -->
+                        <li class="list-group-item list-toggle">                   
+                            <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-2">研究方向</a>
+                            <ul id="collapse-2" class="collapse">
+                                <li><a href="feature_btn_general.html">服务科学与网络计算</a></li>
+                                <li><a href="feature_btn_general.html">嵌入式普适高性能计算</a></li>
+                                <li><a href="feature_btn_general.html">智能计算及系统</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Group -->
+
+                        <!-- Group -->
+                        <li class="list-group-item list-toggle">                   
+                            <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-3">科研硕果</a>
+                            <ul id="collapse-3" class="collapse">
+                                <li><a href="feature_btn_general.html">平台建设</a></li>
+                                <li><a href="feature_btn_general.html">获奖成果</a></li>
+                                <li><a href="feature_btn_general.html">著作</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Group -->
+
+                        <!-- Group -->
+                        <li class="list-group-item"><a href="index.html">人才引进</a></li>
+                        <!-- End Group -->
+
+                        <!-- Group -->
+                        <li class="list-group-item list-toggle active">                   
+                            <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-5">关于我们</a>
+                            <ul id="collapse-5" class="collapse in">
+                                <li class="active"><a href="feature_btn_general.html">教师团队</a></li>
+                                <li><a href="feature_btn_general.html">实验室概况</a></li>
+                                <li><a href="feature_btn_general.html">实验室理念</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Group -->
+
+                        <!-- Group -->
+                        <li class="list-group-item list-toggle">                   
+                            <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-6">联系我们</a>
+                            <ul id="collapse-6" class="collapse">
+                                <li><a href="feature_btn_general.html">联系我们</a></li>
+                                <li><a href="feature_btn_general.html">在地图上找到我们</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Group -->
+                    </ul>
+                    <!--End Left Sidebar-->
+                </div>
+                    
+                <div class="col-md-9">
+                    <!--Profile Body-->
+                    <div class="profile-body">
+                        <div class="profile-bio">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <img class="img-responsive md-margin-bottom-10" src="images/wj.jpg" alt="">
+                                </div>
+                                <div class="col-md-7">
+                                    <h2>吴　健</h2>
+                                    <span><strong><h5>职位：</strong> 教授/博导</h5></span>
+                                    <span><strong><h5>主攻方向：</strong> 服务计算、数据挖掘</h5></span>
+                                    <hr>
+                                    <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浙江大学计算机学院获得学士、博士学位，2004年起在该学院任教至今。2010和2011年在美国UIUC和UCSB大学做访问学者。浙江大学电子服务研究中心副主任，中国计算机学会青工委委员，中国计算机学会服务计算专委会委员，中国计算机学会计算机应用专委会委员，浙江省151人才，科技部重点领域创新团队成员。担任IJSC杂志编委，PAKDD2013/2014、ICESS2013、ADMA2013等国际学术会议程序委员会委员，TKDE、KAIS、TSMC、TSC、JWSR等学术期刊的审稿专家。研究兴趣集中在服务计算、数据挖掘等方面。</h5>
+                                    <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;近年来承担国家科技支撑项目1项，国家自然科学基金项目4项，浙江省自然科学基金1项，863计划3项，浙江省重大科技攻关1项。先后在IEEE Intelligent Systems、IEEE TKDE、IEEE TSMC、KAIS等国内外期刊会议发表SCI/EI收录论文70余篇，获得2008和2009年度中国百篇最具影响国内学术论文。2007年获教育部科技进步一等奖，2008年获浙江省科技进步一等奖，2009年获中国商业联合会科学技术特等奖，2010年获国家科技进步奖二等奖。</h5>
+                                </div>
+                            </div>    
+                        </div><!--/end row-->
+                                
+                        <hr>                       
+
+                        <!--Timeline-->
+                        <div class="panel panel-profile">
+                            <div class="panel-heading overflow-h">
+                                <h2 class="panel-title heading-sm pull-left"><i class="fa fa-briefcase"></i> Experience</h2>
+                                <a href="#"><i class="fa fa-cog pull-right"></i></a>
+                            </div>
+                            <div class="panel-body margin-bottom-40">
+                                <ul class="timeline-v2 timeline-me">
+                                    <li>
+                                        <time datetime="" class="cbp_tmtime"><span>访问学者</span> <span>2010 - 2011</span></time>
+                                        <i class="cbp_tmicon rounded-x hidden-xs"></i>
+                                        <div class="cbp_tmlabel">
+                                        <h2>美国UIUC和UCSB大学</h2>
+                                            <p>访问学者</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <time datetime="" class="cbp_tmtime"><span>教授</span> <span>2004 - Current</span></time>
+                                        <i class="cbp_tmicon rounded-x hidden-xs"></i>
+                                        <div class="cbp_tmlabel">
+                                        <h2>浙江大学</h2>
+                                            <p>任教</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>    
+                        </div>
+                        <!--End Timeline-->
+
+                        <hr>
+
+                        <!--Timeline-->
+                        <div class="panel panel-profile">
+                            <div class="panel-heading overflow-h">
+                                <h2 class="panel-title heading-sm pull-left"><i class="fa fa-mortar-board"></i> Education</h2>
+                                <a href="#"><i class="fa fa-cog pull-right"></i></a>
+                            </div>
+                            <div class="panel-body">
+                                <ul class="timeline-v2 timeline-me">
+                                    <li>
+                                        <time datetime="" class="cbp_tmtime"><span>Bachelor of IT</span> <span>2003 - 2000</span></time>
+                                        <i class="cbp_tmicon rounded-x hidden-xs"></i>
+                                        <div class="cbp_tmlabel">
+                                            <h2>Harvard University</h2>
+                                            <p>Winter purslane courgette pumpkin quandong komatsuna fennel green bean cucumber watercress. Peasprouts wattle seed rutabaga okra yarrow cress avocado grape.</p> 
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <time datetime="" class="cbp_tmtime"><span>Web Design</span> <span>1997 - 2000</span></time>
+                                        <i class="cbp_tmicon rounded-x hidden-xs"></i>
+                                        <div class="cbp_tmlabel">
+                                        <h2>Imperial College London</h2>
+                                            <p>Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <time datetime="" class="cbp_tmtime"><span>High School</span> <span>1988 - 1997</span></time>
+                                        <i class="cbp_tmicon rounded-x hidden-xs"></i>
+                                        <div class="cbp_tmlabel">
+                                        <h2>Chicago High School</h2>
+                                            <p>Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>    
+                        </div>
+                        <!--End Timeline--> 
+
+                        <hr>
+
+                        <div class="row">
+                            <!--Social Icons v3-->
+                            <div class="col-sm-6 sm-margin-bottom-30">
+                                <div class="panel panel-profile">
+                                    <div class="panel-heading overflow-h">
+                                        <h2 class="panel-title heading-sm pull-left"><i class="fa fa-pencil"></i> 联系我 <small>(option 1)</small></h2>
+                                        <a href="#"><i class="fa fa-cog pull-right"></i></a>
+                                    </div>
+                                    <div class="panel-body">
+                                         <ul class="list-unstyled social-contacts-v2">
+                                            <li><i class="rounded-x tw fa fa-wordpress"></i> <a href="http://ccnt.zju.edu.cn/myhome/wj.html">个人主页</a></li>
+                                            <li><i class="rounded-x gm fa fa-envelope"></i> <a href="#">Email: wujian2000@zju.edu.cn</a></li>
+                                        </ul>
+                                    </div>       
+                                </div>
+                            </div>
+                            <!--End Social Icons v3-->              
+                        </div><!--/end row-->
+                    </div>
+                    <!--End Profile Body-->
+                </div>
+            </div><!--/end row-->
+        </div><!--/container-->    
+    </div>      
+    <!--=== End Profile ===-->
+
+<!--=== Footer ===-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-5 md-margin-bottom-40">
+                    <div class="headline"><h2>友情链接</h2></div>
+                    <div class="row">
+                        <div class="col-md-6 md-margin-bottom-40">
+                            <ul class="list-unstyled link-list">
+                                <li><a href="http://www.zju.edu.cn">浙江大学</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="http://cspo.zju.edu.cn">浙大计算机</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="http://www.cad.zju.edu.cn">CAD&CG实验室</a><i class="fa fa-angle-right"></i></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 md-margin-bottom-40">
+                        <ul class="list-unstyled link-list">
+                                <li><a href="http://www.cc98.org">CC98</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="http://www.nexushd.org">NexusHD</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="http://s.zju.edu.cn">浙大搜索</a><i class="fa fa-angle-right"></i></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div><!--/col-md-5-->  
+
+                <div class="col-md-3 md-margin-bottom-40">
+                    <div class="posts">
+                        <div class="headline"><h2>网站更新</h2></div>
+                        <ul class="list-unstyled latest-list">
+                            <li>
+                                <a>网页界面更新by Crab</a>
+                                <small>Oct, 2014</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--/col-md-3-->  
+
+                <div class="col-md-4">
+                    <!-- Contact Us -->
+                    <div class="headline"><h2>Contact Us</h2></div> 
+                        <address class="md-margin-bottom-40">
+                            <i class="fa fa-home"></i>&nbsp;浙江杭州市浙大路38号 浙江大学曹光彪楼<br>
+                            <i class="fa fa-phone"></i>&nbsp;电 话：0571-87951647&nbsp;&nbsp;
+                            <i class="fa fa-phone"></i>&nbsp;传 真：0571-87953079<br>
+                            <i class="fa fa-globe"></i>&nbsp;电子邮件：ccnt_cs@zju.edu.cn</a> <br>
+                            <i class="fa fa-envelope"></i>&nbsp;网址： <a href="ccnt.zju.edu.cn">ccnt.zju.edu.cn</a> 
+                        </address>
+                    <!-- End Contact Us -->
+                </div><!--/col-md-4-->
+            </div>
+        </div> 
+    </div><!--/footer-->
+    <!--=== End Footer ===-->
+    
+    <!--=== Copyright ===-->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">                     
+                    <p>
+                        2014 © Unify. ALL Rights Reserved. 
+                        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                    </p>
+                </div>
+                <div class="col-md-6">  
+                    <a href="index.html">
+                        <img class="pull-right" id="logo-footer" src="images/logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!--=== End Copyright ===-->
+    <!--=== End Copyright ===-->
+</div><!--/wrapper-->
+
+<!-- JS Global Compulsory -->           
+<script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="assets/plugins/circles-master/circles.js"></script>
+<!-- Datepicker Form -->
+<script src="assets/plugins/sky-forms/version-2.0.1/js/jquery-ui.min.js"></script>
+<!-- Scrollbar -->
+<script src="assets/plugins/scrollbar/src/jquery.mousewheel.js"></script>
+<script src="assets/plugins/scrollbar/src/perfect-scrollbar.js"></script>
+<!-- JS Page Level -->           
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/plugins/datepicker.js"></script>
+<script type="text/javascript" src="assets/js/plugins/circles-master.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+        Datepicker.initDatepicker();
+        CirclesMaster.initCirclesMaster1();
+    });
+</script>
+<script>
+    jQuery(document).ready(function ($) {
+        "use strict";
+        $('.contentHolder').perfectScrollbar();
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+<![endif]-->
+
+</body>
+</html> 
